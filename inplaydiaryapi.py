@@ -33,7 +33,10 @@ class InPlays:
             'Sec-Fetch-Site': os.getenv('SEC_FETCH_SITE'),
             'Sec-Fetch-User': os.getenv('SEC_FETCH_USER'),
             'Upgrade-Insecure-Requests': os.getenv('UPGRADE_INSECURE_REQUESTS'),
-            'User-Agent': os.getenv('USER_AGENT')
+            'User-Agent': os.getenv('USER_AGENT'),
+            'Sec-WebSocket-Extensions': os.getenv('HEADERS_SEC_WEBSOCKET_EXTENSIONS'),
+            'Sec-WebSocket-Protocol': os.getenv('HEADERS_SEC_WEBSOCKET_PROTOCOL'),
+            'Sec-WebSocket-Version': os.getenv('HEADERS_SEC_WEBSOCKET_VERSION'),
         }
         # Configura a sessão com tentativas de reconexão
         self.session = requests.Session()
