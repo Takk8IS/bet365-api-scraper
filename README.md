@@ -9,7 +9,7 @@ This project is a scraper of the Bet365 API to collect data from live matches, m
 -   [Usage](#usage)
 -   [Files](#files)
 -   [Dependencies](#dependencies)
--   [Contributing](#contributing)
+-   [Contributing](#contributing) 
 -   [License](#license)
 
 ## Installation
